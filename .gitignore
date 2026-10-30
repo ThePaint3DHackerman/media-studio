@@ -1,0 +1,57 @@
+# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Generated packaging output; keep the checked-in PyInstaller .spec file
+/build/
+/dist/
+/_internal/
+*.exe
+*.dll
+*.pyd
+*.zip
+*.7z
+
+# Local credentials and settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.log
+
+# Personal media and generated reports
+/input/
+/output/
+/media/
+/reports/
+/ffmpeg/
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.mp3
+*.wav
+*.flac
+*.m4a
+*.ogg
+*.opus
+
+# Editor and Windows files
+.vscode/
+.idea/
+*.bak
+*.tmp
+*~
+Thumbs.db
+Desktop.ini
